@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: rails.kube8.com
+  name: rails.kube8V1.com
   labels:
     app: rails-docker-kube8
 spec:
