@@ -6,4 +6,4 @@ COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
 RUN bundle install
 COPY . /myapp
-CMD bundle exec puma -c config/puma.rb
+CMD bundle exec puma config/puma.rb
